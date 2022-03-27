@@ -1,0 +1,312 @@
+/* ---------------------------------------------------------------------- */
+/*	Version 1500px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 1500px) {
+	.layout-wide .crumbs:before{
+	    left: 15%;
+	}
+	/* Filter Header - Title Header ------------------------------*/
+	.filter-title{
+		top: 12%;
+		left: 0%;
+		margin-left: 0;
+		width: 100%;
+	}
+	.title-header h1{
+		font-size: 4rem;
+		line-height: 4.3rem;
+	}
+	.filter-header{
+		max-width: 80%;
+	}
+}
+/* ---------------------------------------------------------------------- */
+/*	Version 1280px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 1250px) {
+	.flat-mega-menu > ul > li > a {
+		padding-left: 8px;
+		padding-right: 8px;
+		font-size: 0.78rem;
+	}
+	.flat-mega-menu > ul > .title i{
+		right: 20%;
+	}
+	/* Filter Header - Title Header ------------------------------*/
+	.filter-title{
+		top: 12%;
+		left: 0%;
+		margin-left: 0;
+		width: 100%;
+	}
+	.title-header h1{
+		font-size: 3.5rem;
+		line-height: 3.7rem;
+	}
+	.layout-semiboxed .flat-mega-menu .container,
+	.layout-semiboxed footer .container{
+		width: auto !important;
+		padding-right: 15px !important;
+  		padding-left: 15px !important;
+	}
+}
+/* ---------------------------------------------------------------------- */
+/*	Version 1024px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 1024px) {
+
+	.section-title{
+		height: 290px;
+	}
+	.semiboxshadow img {
+		display: none;
+	}
+}
+/* ---------------------------------------------------------------------- */
+/*	 Version 1000px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 999px) {
+	html {
+		font-size: 14px;
+	}
+	
+	header{		
+		position: relative;		
+	}
+	.content-info{	
+		max-width: auto;
+		margin-top: 0;
+		margin-bottom: -120px;
+	}
+
+	.layout-wide .content-info{	
+		max-width: auto;	
+	}
+	.layout-wide .semiboxshadow{
+		display: none;
+	}
+	.layout-boxed-margin{
+		max-width: 1230px;
+		margin: 0 auto;
+	}
+	.footer-down,
+	.footer-down ul,
+	header{
+		text-align: center;
+	}
+	footer h4,
+	.post-item h4{
+		margin-top: 20px;
+	}
+	.img-footer{
+		margin-top: 60px;
+	}
+	.footer-v3 .img-footer{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	/* Filter Header - Title Header ------------------------------*/
+	.header-v1{	
+		background: rgba(0,0,0,0.7);
+		max-height: 2000px !important;	
+	}
+	.flat-mega-menu > ul > .title > a{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.flat-mega-menu > ul > .title i{
+		right: 40%;
+	}
+	.flat-mega-menu > ul > li > a {
+		font-size: 1rem;
+	}
+	.filter-title{
+		top: 12%;
+		left: 10%;
+		margin-left: -5%;
+		width: 90%;
+	}
+	.title-header h1{
+		font-size: 3rem;
+		line-height: 3.4rem;
+	}
+	.title-header p{
+		max-width: 700px;
+	}
+	.filter-header{
+		max-width: 100%;
+	}
+	.content-central{	
+		margin-top: -50px;
+		margin-bottom: -150px;
+	}
+	.services-lines{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.services-lines-info{
+		text-align: center;
+	}
+	.services-lines-info p.lead .line {
+	  margin: 20px auto;
+	}
+	.promotion-box{
+		max-width: 350px;
+		margin:0 auto 30px auto;
+	}
+	.info-testimonial{
+		width: 100%;
+		margin-left: 0;
+	}
+	#slide-features .btn{
+		margin-bottom: 20px;
+	}
+	footer{
+		text-align: center;
+	}
+	.testimonial-info{
+		text-align: center;
+		padding-bottom: 100px;
+	}
+	.content-boxes .item-boxed{
+		width: 100%;
+	}
+	.testimonial-info{
+		padding-top: 80px;
+	}
+	footer .input-group{
+		margin-bottom: 20px;
+	}
+	.footer-v1 ul.nav-footer{
+		margin-top: 10px;
+	}
+	.section-title-01 h1{
+		padding-top: 180px;
+	}
+	.section-title-02,
+	.section-title-03{
+		text-align: center;
+		height: 300px;
+	}
+	.section-title-02 .crumbs,
+	.section-title-03 .crumbs{
+	  padding: 0;
+	  text-align: center;
+	}
+	.section-title-03 h1{
+		padding: 110px 0 10px 0;
+	}
+	.section-title-03 .crumbs ul {
+	  margin: 10px auto;
+	  padding: 10px;
+	  list-style: none;
+	}
+	.item-table{
+		margin:0 auto 30px auto;
+		max-width: 380px;
+		border:1px solid #dedede !important;
+	}
+
+}
+/* ---------------------------------------------------------------------- */
+/*	 Mobile Version 768px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 768px) {
+	
+
+}
+/* ---------------------------------------------------------------------- */
+/*	 Version 600px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 600px) {
+	.flat-mega-menu > ul > .title i{
+		display: none !important;
+	}
+	.filter-title{
+		top: 40%;
+	}
+	.filter-header{
+		max-width: 100%;
+		height: auto;
+		overflow: auto;
+	}
+	.content-central{	
+		margin-top: 0;
+		margin-bottom: -150px;
+	}
+	.title-header h1{
+		font-size: 2rem;
+		line-height: 2.4rem;
+	}
+	.filter-header .input-large{
+		width: 40%;
+	}
+	.filter-header .date-input{
+		width: 20%;
+		font-size: 0.7rem;
+		border-top: 1px solid #dedede;
+	}
+	.filter-header .selector {
+		width: 20%;
+		border-top: 1px solid #dedede;
+	}
+	.filter-header input[type="submit"]{
+		width: 100%;
+	}
+	.content-boxes .item-boxed{
+		margin-bottom: 30px;
+		display: block;
+	}
+	.image-boxed{
+		float: none !important;
+	  	width: 100% !important;
+	  	display: block !important;
+	}
+	.image-boxed img{
+		width: auto !important;
+	}
+	.info-boxed{
+	  	width: 100% !important;
+	  	top: 0;
+	  	margin-bottom: 30px;
+	  	height: auto;
+	}
+	.boxed-bottom{
+		border-bottom: 0 !important;
+	}
+	.boxed-top{
+		border-top: 0 !important;
+	}
+	.services-lines li{
+		width: 33.33%;
+	}
+	.image-boxed a.more-boxe{
+		top: 60%;
+	}
+}
+/* ---------------------------------------------------------------------- */
+/*	 Version 480px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 470px) {
+	.title-header p,
+	.title-header h1{
+		display: none;
+	}
+	.filter-header .input-large{
+		width: 100%;
+	}
+	.filter-header .date-input{
+		width: 100%;
+		font-size: 0.7rem;
+	}
+	.filter-header .selector {
+		width: 100%;
+	}
+	.filter-header input[type="submit"]{
+		width: 100%;
+	}
+	.services-lines li{
+		width: 50%;
+	}
+}

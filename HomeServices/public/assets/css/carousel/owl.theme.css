@@ -1,0 +1,189 @@
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.22
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 0;
+	text-align: center;
+}
+/* Styling Next and Prev buttons */
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 0 12px;
+	font-size: 12px;
+	opacity: 0.9;
+	color: #fff;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin-top: 15px;
+}
+.owl-theme .owl-controls .owl-page span{ /* es este pilas*/
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #ccc;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+
+.owl-item.loading{
+	min-height: 190px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	background-color: #666;
+}
+
+/* Styling Next and Prev buttons  Titles -----------------------------*/
+
+.single-carousel:hover .owl-prev,
+.single-carousel:hover .owl-next{
+	opacity: 1;
+}
+.single-carousel .owl-prev{
+	left: -5px;
+}
+.single-carousel  .owl-next{
+	right:-5px;
+}
+
+.owl-controls{
+	margin: 0;
+}
+.twitter .owl-theme .owl-controls{
+	margin-top: 20px;
+}
+#blog-post  .owl-prev,
+#blog-post .owl-next{	
+	margin-top: 30px;
+}
+
+
+/* Styling Next and Prev buttons  animation-services -----------------------------*/
+
+#single-carousel,
+#single-carousel-sidebar{
+	overflow: hidden;
+}
+
+#slide-features  .owl-prev,
+#slide-features .owl-next,
+#boxes-carousel  .owl-prev,
+#boxes-carousel  .owl-next,
+#team-carousel  .owl-prev,
+#team-carousel  .owl-next,
+#services-carousel  .owl-prev,
+#services-carousel  .owl-next,
+#single-carousel  .owl-prev,
+#single-carousel  .owl-next,
+#single-carousel-sidebar .owl-prev,
+#single-carousel-sidebar .owl-next{	
+	position: absolute;
+	top: 36%;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	z-index: 10;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;	
+}
+.section-title-detailed #single-carousel  .owl-prev,
+.section-title-detailed #single-carousel  .owl-next{
+	top: 30%;
+}
+
+#slide-features  .owl-prev i,
+#slide-features .owl-next i,
+#boxes-carousel  .owl-prev i,
+#boxes-carousel  .owl-next i,
+#team-carousel .owl-prev i,
+#team-carousel .owl-next i,
+#services-carousel  .owl-prev i,
+#services-carousel  .owl-next i,
+#single-carousel  .owl-next i,
+#single-carousel  .owl-next i,
+#single-carousel-sidebar  .owl-next i,
+#single-carousel-sidebar  .owl-next i{
+	font-size: 18px;
+	font-weight: bold;	
+}
+#slide-features .owl-prev,
+#boxes-carousel  .owl-prev,
+#team-carousel .owl-prev,
+#services-carousel  .owl-prev,
+#single-carousel  .owl-prev,
+#single-carousel-sidebar  .owl-prev{
+	left: -55px;	
+	text-align: right;
+	padding-top: 28px;
+}
+#slide-features  .owl-next,
+#boxes-carousel  .owl-next,
+#team-carousel .owl-next,
+#services-carousel  .owl-next,
+#single-carousel  .owl-next,
+#single-carousel-sidebar  .owl-next{
+	right: -55px;
+	text-align: left;
+	padding-top: 28px;
+}
+#slide-features .owl-pagination,
+#boxes-carousel  .owl-pagination,
+#team-carousel .owl-pagination{
+	background-color: #fff;
+	display: inline;
+	padding: 12px 20px 0 20px;
+	border-radius: 5px 5px 0 0;
+	border: 1px solid #dedede;
+	border-bottom: 0;
+}
+#slide-features .owl-controls,
+#boxes-carousel .owl-controls{
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: -1px;
+}

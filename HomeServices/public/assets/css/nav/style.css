@@ -1,0 +1,882 @@
+.flat-mega-menu .collapse{
+	visibility: visible !important;
+}
+/* reset */
+.flat-mega-menu ul,
+.flat-mega-menu li,
+.flat-mega-menu a,
+.flat-mega-menu p,
+.flat-mega-menu img,
+.flat-mega-menu h2 {
+	margin: 0;
+	padding: 0;
+	display: block;
+	line-height: normal;
+	text-decoration: none;
+	list-style: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* menu container */
+.flat-mega-menu {
+	margin: 0 auto;/* margin for align container center */
+	padding: 0;
+	position: relative;
+	z-index: 999;
+	font-size: 0.775rem;
+	display: block;
+	max-width: 1140px;/* container max-width 1280px */
+	min-height: 60px;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	min-width: 180px;
+}
+/* ul tag layout */
+.flat-mega-menu > ul {
+	float: left;
+	width: 100%;
+	min-height: 60px;
+	text-align: right;
+	background: 0 0;
+}
+.header-v1.is-sticky{
+	background: #fff;
+	padding: 0;
+	-webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+.header-v1.is-sticky .flat-mega-menu > ul > li,
+.header-v1.is-sticky .flat-mega-menu > ul > li > a {
+	color: #444;
+}
+.header-v1.is-sticky .flat-mega-menu > label {
+	color: #232323;
+}
+/* li tag layout */
+.flat-mega-menu > ul > li {
+	display: inline-block;
+	min-height: 60px;
+	line-height: 60px;
+	color: #FFFFFF;
+}
+/* a tag layout */
+.flat-mega-menu > ul > li > a {
+	line-height: 60px;
+	color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-size: 0.85rem;
+}
+/* .title class layout */
+.flat-mega-menu > ul > .title > a {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	line-height: 60px;
+	padding-left: 20px;
+	text-align: left;
+	padding-right: 20px;
+	padding-left: 0 !important;
+}
+.flat-mega-menu > ul > .title > a > span {
+	font-size: 2rem;
+	font-weight: bold;
+}
+.flat-mega-menu > ul > .title {
+	border-left: none;
+	min-width: 20%;
+	float: left;
+	position: relative;
+}
+.flat-mega-menu > ul > .title i{
+	position: absolute;
+	top: 18px;
+	right: 37%;
+	font-size: 1.6rem;
+}
+
+/* .login-form class */
+.flat-mega-menu ul .login-form {
+	text-align: center;
+	cursor: pointer;
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+.header-v1.is-sticky .flat-mega-menu ul .login-form {
+	padding-right: 0 !important;
+}
+.flat-mega-menu .login-form table,
+.flat-mega-menu .login-form tbody {
+	width: 100%;
+}
+.flat-mega-menu .login-form input {
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding: 5px 10px;
+	display: block;
+	background-color: rgb(244, 244, 244);
+	box-shadow: inset 0.5px 1px 3px 0px rgba(0,0,0,0.10);
+	-webkit-box-shadow: inset 0.5px 1px 3px 0px rgba(0,0,0,0.10);
+	border: 1px solid #dedede;
+	height: 35px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+}
+.flat-mega-menu .login-form input[type=submit]{
+	border: 1px solid rgba(0,0,0,0.15);
+	border-radius: 3px;
+	opacity: 0.81;
+	box-shadow: inset 0.5px 0.866px 0px 0px rgba(255, 248, 68, 0.106);
+	color: #FFFFFF;
+	height: 35px;
+	width: 100px;
+	font-size: 1rem;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	outline: none;
+}
+.flat-mega-menu .login-form input[type=submit]:hover {
+	opacity: 1;
+}
+.flat-mega-menu .login-form input[type=checkbox] {
+	float: left;
+	box-shadow: none;
+	display: block;
+	height: 35px;
+	width: auto;
+	cursor: pointer;
+	outline: none;
+	background-color: #FFFFFF;
+}
+.flat-mega-menu .login-form label {
+	color: #7D7D7D;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8rem;
+	font-weight: normal;
+	height: 35px;
+	display: block;
+	margin: 10px 0 0;
+	padding: 0 0 0 0px;
+	line-height: 35px;
+	white-space: nowrap;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+}
+.flat-mega-menu .login-form ul {
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	padding: 15px 15px 10px;
+}
+.flat-mega-menu .login-form:hover{
+	background-color: #FFFFFF;
+	/* animation */
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+/* .search-bar class */
+.flat-mega-menu ul .search-bar {
+	min-width: 45px;
+	text-align: center;
+	cursor: pointer;
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	border-left: 1px solid #dedede;
+}
+.flat-mega-menu .search-bar:hover{
+	background-color: #FFFFFF;
+	/* animation */
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+.flat-mega-menu .search-bar ul {
+	position: absolute;
+	right: 0;
+	width: 40%;
+}
+.flat-mega-menu .search-bar table,
+.flat-mega-menu .fa-user tbody {
+	width: 100%;
+}
+.flat-mega-menu .search-bar table tr td:last-child {
+	width: 120px;
+}
+.flat-mega-menu .search-bar ul input[type=search] {
+	background-color: #FFFFFF;
+	box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.55);
+	-webkit-box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.55);
+	border: none;
+	padding: 10px;
+	width: 100%;
+	float: left;
+	border-right: 10px solid rgba(0,0,0,0.00);
+	border-left: 20px solid rgba(0,0,0,0.00);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 40px;
+	outline: none;
+}
+.flat-mega-menu .search-bar ul input[type=submit]{
+	border: none;
+	width: 85%;
+	cursor: pointer;
+	font-size: 0.9rem;
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+	height: 40px;
+	outline: none;
+	border: 1px solid rgba(0,0,0,0.15);
+	opacity: 0.81;
+	box-shadow: inset 0.5px 0.866px 0px 0px rgba(255, 248, 68, 0.106);
+	color: #FFFFFF;
+}
+.flat-mega-menu .search-bar ul input[type=submit]:hover {
+	opacity: 1;
+	outline: none;
+}
+
+/* hover animation */
+.flat-mega-menu > ul > li:hover > a {
+	background: #FFFFFF;
+	/* animation */
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+.flat-mega-menu > ul > .title:hover > a {
+	background: inherit;
+	color: inherit !important;
+}
+
+/*------- Drop down layout start ------*/
+.flat-mega-menu .drop-down {
+	position: absolute;
+	background: #FFFFFF;
+	z-index: 999;
+	margin-left: 0px;
+	width: 100%;
+	float: left;
+	width: 150px;
+	border: 1px solid rgba(0,0,0,0.10);
+	border-top: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 3px solid;
+}
+
+.flat-mega-menu .drop-down .drop-down {
+	border-top: 1px solid rgba(0,0,0,0.10);
+}
+.flat-mega-menu .drop-down li {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.flat-mega-menu .drop-down li a {
+	color: #555658;
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+	text-align: left;
+	padding: 10px 20px;
+	background-color: #FFFFFF;
+	/* animation */
+	transition: color 0.2s linear 0s, padding-left 0.2s linear 0s;
+	-moz-transition: color 0.2s linear 0s, padding-left 0.2s linear 0s;
+	-ms-transition: color 0.2s linear 0s, padding-left 0.2s linear 0s;
+	-o-transition: color 0.2s linear 0s, padding-left 0.2s linear 0s;
+	-webkit-transition: color 0.2s linear 0s, padding-left 0.2s linear 0s;
+}
+
+/* drop down hover animation */
+.flat-mega-menu .drop-down li:hover > a {
+	color: #000000;
+	padding-left: 30px;
+}
+
+/* default hover animation to show drop down */
+.flat-mega-menu > ul > li:hover .drop-down {
+	display: block;
+}
+
+.flat-mega-menu ul li .drop-down li:hover > .drop-down {
+	display: block;
+}
+
+/* .hover-fade animation to show drop down */
+.flat-mega-menu > ul > li .drop-down.hover-fade {
+	display: none;
+}
+
+.flat-mega-menu > ul > li:hover > .drop-down.hover-fade,
+.flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-fade {
+	display: block;
+	/* keyframes animation */
+	animation: hover-fade 0.3s linear 0s forwards;
+	-moz-animation: hover-fade 0.3s linear 0s forwards;
+	-ms-animation: hover-fade 0.3s linear 0s forwards;
+	-o-animation: hover-fade 0.3s linear 0s forwards;
+	-webkit-animation: hover-fade 0.3s linear 0s forwards;
+}
+
+@keyframes hover-fade {0% {opacity:0;}100% {opacity:1;}}
+@-moz-keyframes hover-fade {0% {opacity:0;}100% {opacity:1;}}
+@-ms-keyframes hover-fade {0% {opacity:0;}100% {opacity:1;}}
+@-o-keyframes hover-fade {0% {opacity:0;}100% {opacity:1;}}
+@-webkit-keyframes hover-fade {0% {opacity:0;}100% {opacity:1;}}
+
+/* .hover-zoom animation to show drop down */
+.flat-mega-menu > ul > li .drop-down.hover-zoom {
+	display: none;
+}
+
+.flat-mega-menu > ul > li:hover > .drop-down.hover-zoom,
+.flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-zoom {
+	display: block;
+	/* keyframes animation */
+	animation: hover-zoom 0.2s linear 0s forwards;
+	-moz-animation: hover-zoom 0.2s linear 0s forwards;
+	-ms-animation: hover-zoom 0.2s linear 0s forwards;
+	-o-animation: hover-zoom 0.2s linear 0s forwards;
+	-webkit-animation: hover-zoom 0.2s linear 0s forwards;
+}
+
+@keyframes hover-zoom {0% {opacity:0; transform: scale(0.8, 0.8);} 100% {opacity:1; transform:scale(1.0, 1.0);}}
+@-moz-keyframes hover-zoom {0% {opacity:0; -moz-transform: scale(0.8, 0.8);} 100% {opacity:1; -moz-transform:scale(1.0, 1.0);}}
+@-ms-keyframes hover-zoom {0% {opacity:0; -ms-transform: scale(0.8, 0.8);} 100% {opacity:1; -ms-transform:scale(1.0, 1.0);}}
+@-o-keyframes hover-zoom {0% {opacity:0; -o-transform: scale(0.8, 0.8);} 100% {opacity:1; -o-transform:scale(1.0, 1.0);}}
+@-webkit-keyframes hover-zoom {0% {opacity:0; -webkit-transform: scale(0.8, 0.8);} 100% {opacity:1; -webkit-transform:scale(1.0, 1.0);}}
+
+/* .hover-expand animation to show drop down */
+.flat-mega-menu > ul > li .drop-down.hover-expand {
+	display: none;
+}
+
+.flat-mega-menu > ul > li:hover > .drop-down.hover-expand,
+.flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-expand {
+	display: block;
+	/* keyframes animation */
+	animation: hover-expand 0.2s linear 0s forwards;
+	-moz-animation: hover-expand 0.2s linear 0s forwards;
+	-ms-animation: hover-expand 0.2s linear 0s forwards;
+	-o-animation: hover-expand 0.2s linear 0s forwards;
+	-webkit-animation: hover-expand 0.2s linear 0s forwards;
+}
+
+@keyframes hover-expand { 0% {opacity:0; transform: rotateY(90deg);} 100% {opacity:1; transform:rotateY(0deg);}}
+@-moz-keyframes hover-expand { 0% {opacity:0; -moz-transform: rotateY(90deg);} 100% {opacity:1; -moz-transform:rotateY(0deg);}}
+@-ms-keyframes hover-expand { 0% {opacity:0; -ms-transform: rotateY(90deg);} 100% {opacity:1; -ms-transform:rotateY(0deg);}}
+@-o-keyframes hover-expand { 0% {opacity:0; -o-transform: rotateY(90deg);} 100% {opacity:1; -o-transform:rotateY(0deg);}}
+@-webkit-keyframes hover-expand { 0% {opacity:0; -webkit-transform: rotateY(90deg);} 100% {opacity:1; -webkit-transform:rotateY(0deg);}}
+
+/* fontAwesome icons layout */
+.flat-mega-menu .drop-down li i {
+	position: absolute;
+	z-index: 999;
+	top: 0;
+	right: 20px;
+	bottom: 0;
+	height: 16px;
+	margin: auto;
+	color: #555658;
+}
+
+/* level 2 .drop-down layout */
+.flat-mega-menu .drop-down .drop-down {
+	left: 100%;
+	top: -10px;
+	width: 150px;
+}
+
+/*------- one column layout ----------*/
+.flat-mega-menu .drop-down.one-column {
+	width: 200px;
+}
+
+.flat-mega-menu .drop-down .drop-down.one-column {
+	width: 200px;
+}
+
+/*-------- two column layout ---------*/
+.flat-mega-menu .drop-down.two-column {
+	width: 322px;
+}
+
+.flat-mega-menu .drop-down.two-column ul {
+	float: left;
+	width: 160px;
+	margin: 0;
+	padding: 0;
+}
+
+/*--------- .full-width with 4 columns layout -----------*/
+.flat-mega-menu .drop-down.full-width {
+	width: 100%;
+	max-width: 1140px;
+	right: 0;
+	margin: 0 auto;
+	text-align: left;
+	left: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.flat-mega-menu .drop-down.full-width ul {
+	float: left;
+	width: 25%;
+	border-right: 1px solid #dedede;
+	cursor: default;
+}
+.flat-mega-menu .drop-down.full-width ul:last-child{
+	border-right: 0;
+}
+.flat-mega-menu .drop-down.full-width ul li {
+	margin: 0;
+	padding: 10px 0;
+	float: left;
+	width: 100%;
+}
+.flat-mega-menu .drop-down.full-width ul li a {
+	margin: 0;
+	border: none;
+	padding: 0;
+	float: left;
+	margin-right: 10%;
+	margin-left: 10%;
+	transition: text-indent 0.2s linear 0s;
+	-moz-transition: text-indent 0.2s linear 0s;
+	-ms-transition: text-indent 0.2s linear 0s;
+	-o-transition: text-indent 0.2s linear 0s;
+	-webkit-transition: text-indent 0.2s linear 0s;
+}
+.flat-mega-menu .drop-down.full-width ul li a.btn{
+	color: #fff;
+	font-size: 0.7rem;
+	padding: 5px 10px;
+	margin-left: 11%;
+}
+
+/* hover animation */
+.flat-mega-menu .drop-down.full-width ul li:hover a {
+	text-indent: 5px;
+}
+.flat-mega-menu .drop-down.full-width ul li p {
+	margin: 0;
+	padding: 10px 10px 10px 11%;
+	float: left;
+	width: 100%;
+	clear: both;
+	font-size: 0.75rem;
+	line-height: 1.2rem;
+	color: #949598;
+}
+
+/*---------- drop down with .social-bar class -------*/
+.flat-mega-menu .drop-down.social-bar {
+	width: 200px;
+}
+/* hr tag layout */
+.flat-mega-menu hr {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+/* image layout */
+.flat-mega-menu img {
+	width: 100%;
+	float: left;
+	margin-top: 25px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: rgb(255, 255, 255);
+	background-color: rgb(235, 235, 235);
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3), inset 0px 0px 76px 0px rgba(0, 0, 0, 0.2);
+}
+/* image hover animation */
+.flat-mega-menu img:hover {
+	opacity: 0.8;
+}
+
+/* h2 layout */
+.flat-mega-menu h2{
+	text-align: left;
+	color: #535456;
+	font-size: 1.1rem;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 0 10%;
+}
+.flat-mega-menu h2 span{
+	border-bottom: 1px solid;
+	padding-bottom: 5px;
+}
+
+/* .social-bar class layout */
+.flat-mega-menu .social-bar {
+	position: relative;
+}
+
+.flat-mega-menu .social-bar ul {
+	width: 210px;
+	padding: 10px;
+	position: absolute;
+	background-color: #FFFFFF;
+	border-bottom: 3px solid;
+	right: 0;
+}
+
+.flat-mega-menu .social-bar ul li {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	padding: 0;
+}
+
+.flat-mega-menu .social-bar ul a {
+	margin: 0;
+	padding: 0;
+	display: block;
+	height: 40px;
+	width: 40px;
+	position: relative;
+}
+
+.flat-mega-menu .social-bar ul a i {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid rgba(0,0,0,0.10);
+	line-height: 40px;
+	border-radius: 5px;
+	color: #797979;
+	font-size: 1.3rem;
+	border-radius: 4px;
+	background-image: -moz-linear-gradient(90deg, rgba(233,233,233,1.00) 0%, rgba(233,233,233,1.00) 100%);
+	background-image: -webkit-linear-gradient(90deg, rgba(233,233,233,1.00) 0%, rgba(233,233,233,1.00) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(243,243,243) 100%);
+	background-image: -o-linear-gradient(90deg, rgba(233,233,233,1.00) 0%, rgba(233,233,233,1.00) 100%);
+	background-image: linear-gradient(0deg, rgba(233,233,233,1.00) 0%, rgba(233,233,233,1.00) 100%);
+}
+
+.flat-mega-menu .social-bar ul a:hover i {
+	background: #C7C7C7;
+	color: #000000
+}
+
+/* mobile button hide in desktop mode */
+.flat-mega-menu > label,
+.flat-mega-menu > input {
+	display: none;
+}
+
+/* media query */
+@media screen and (max-width:999px) {
+
+/* li tag layout */
+.flat-mega-menu > ul > li {
+	width: 100%;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: 1px solid;
+	border-bottom-color: #0B70BD;
+}
+
+.flat-mega-menu > ul > li:hover > a,
+.flat-mega-menu > ul > .login-form:hover,
+.flat-mega-menu > ul > .search-bar:hover{
+    color: #ffffff !important;
+}
+
+/* .title class layout */
+.flat-mega-menu > ul > .title a {
+	text-align: center;
+}
+
+/* .full-width class layout */
+.flat-mega-menu .drop-down.full-width {
+	position: relative;
+	left: 0px !important;
+}
+
+/* all drop-downs layout */
+.flat-mega-menu .drop-down.one-column,
+.flat-mega-menu .drop-down.two-column,
+.flat-mega-menu .drop-down.full-width,
+.flat-mega-menu .drop-down .drop-down,
+.flat-mega-menu .social-bar ul,
+.flat-mega-menu .search-bar ul,
+.flat-mega-menu .login-form ul {
+	width: 100% !important;
+	display: block !important;
+	position: relative;
+	left: 0px;
+	transform: scale(1.0, 1.0), rotateY(90deg);
+	-moz-transform: scale(1.0, 1.0), rotateY(90deg);
+	-ms-transform: scale(1.0, 1.0), rotateY(90deg);
+	-o-transform: scale(1.0, 1.0), rotateY(90deg);
+	-webkit-transform: scale(1.0, 1.0), rotateY(90deg);
+}
+
+.flat-mega-menu .drop-down .drop-down {
+	border: none;
+	border-top: 1px solid #E8E8E8;
+	border-bottom: 1px solid #E8E8E8;
+	top: 0;
+	padding: 0;
+}
+
+.flat-mega-menu .drop-down .drop-down.one-column {
+	padding-left: 20px;
+}
+
+.flat-mega-menu > ul > li .drop-down.hover-expand,
+.flat-mega-menu > ul > li .drop-down.hover-fade,
+.flat-mega-menu > ul > li .drop-down.hover-zoom {
+	display: none;
+	border: none;
+}
+
+.flat-mega-menu > ul > li:hover > .drop-down.hover-expand,
+.flat-mega-menu > ul > li:hover > .drop-down.hover-fade,
+.flat-mega-menu > ul > li:hover > .drop-down.hover-zoom,
+.flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-expand,
+.flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-fade,
+.flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-zoom {
+	display: block;
+	/* keyframes animation */
+	animation: hover-default 0.2s linear 0s forwards;
+	-moz-animation: hover-default 0.2s linear 0s forwards;
+	-ms-animation: hover-default 0.2s linear 0s forwards;
+	-o-animation: hover-default 0.2s linear 0s forwards;
+	-webkit-animation: hover-default 0.2s linear 0s forwards;
+}
+
+.flat-mega-menu > ul > .login-form:hover,
+.flat-mega-menu > ul > .search-bar:hover,
+.flat-mega-menu > ul > li:hover > a {
+	color: #FFFFFF;
+	background: inherit;
+}
+
+.flat-mega-menu ul .login-form,
+.flat-mega-menu ul .search-bar {
+	margin: 0;
+	padding: 0;
+}
+
+.flat-mega-menu ul .login-form label {
+	text-align: left;
+	text-indent: 10px;
+}
+
+.flat-mega-menu ul .login-form table td {
+	cursor: default;
+}
+
+.flat-mega-menu .drop-down.two-column ul,
+.flat-mega-menu .drop-down.full-width ul {
+	width: 50%;
+}
+
+.flat-mega-menu .drop-down.one-column a,
+.flat-mega-menu .drop-down.two-column a {
+	width: auto;
+	float: none;
+	text-align: center;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.flat-mega-menu ul .social-bar {
+	text-align: center;
+}
+
+.flat-mega-menu ul .social-bar ul li {
+	display: inline-block;
+	float: none;
+}
+
+/* fontAwesome icons layout */
+.flat-mega-menu .drop-down li .fa.fa-angle-right {
+	position: relative;
+	z-index: 9999;
+	right: 0px;
+	float: right;
+	height: auto;
+	color: #555658;
+	padding: 0;
+	margin: 0 17px 0 0;
+	display: block;
+	line-height: 38px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+/* mobile button layout */
+.flat-mega-menu #mobile-button {
+	position: absolute;
+	display: none;
+}
+
+.flat-mega-menu > ul {
+	height: 60px;
+	overflow: hidden;
+}
+
+/* mobile button click to show drop down */
+.flat-mega-menu #mobile-button:checked + ul {
+	height: auto;
+	overflow: visible;
+}
+
+/* label tag layout */
+.flat-mega-menu > label {
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 99;
+	text-align: center;
+	line-height: 60px;
+	font-size: 2rem;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.header-v3 .flat-mega-menu > label {
+  color: #272727;
+}
+.flat-mega-menu > label i{
+	-ms-user-select:none;
+	-moz-user-select:none;
+	-o-user-select:none;
+	-webkit-user-select:none;	
+}
+
+.flat-mega-menu ul .title {
+	padding-left: 0;
+}
+
+/* collapse class layout */
+.flat-mega-menu .collapse .drop-down.one-column,
+.flat-mega-menu .collapse .drop-down.two-column,
+.flat-mega-menu .collapse .drop-down.full-width,
+.flat-mega-menu .collapse .drop-down .drop-down,
+.flat-mega-menu .collapse .social-bar ul,
+.flat-mega-menu .collapse .search-bar ul,
+.flat-mega-menu .collapse .login-form ul {
+	width: 100% !important;
+	display: none !important;
+	position: relative;
+	left: 0px;
+	transform: scale(1.0, 1.0), rotateY(90deg);
+	-moz-transform: scale(1.0, 1.0), rotateY(90deg);
+	-ms-transform: scale(1.0, 1.0), rotateY(90deg);
+	-o-transform: scale(1.0, 1.0), rotateY(90deg);
+	-webkit-transform: scale(1.0, 1.0), rotateY(90deg);
+}
+
+.flat-mega-menu > .collapse > li:hover > .drop-down.hover-expand,
+.flat-mega-menu > .collapse > li:hover > .drop-down.hover-fade,
+.flat-mega-menu > .collapse > li:hover > .drop-down.hover-zoom,
+.flat-mega-menu > .collapse > li .drop-down li:hover > .drop-down.hover-expand,
+.flat-mega-menu > .collapse > li .drop-down li:hover > .drop-down.hover-fade,
+.flat-mega-menu > .collapse > li .drop-down li:hover > .drop-down.hover-zoom {
+	display: block !important;
+	/* keyframes animation */
+	animation: hover-fade 0.2s linear 0s forwards;
+	-moz-animation: hover-fade 0.2s linear 0s forwards;
+	-ms-animation: hover-fade 0.2s linear 0s forwards;
+	-o-animation: hover-fade 0.2s linear 0s forwards;
+	-webkit-animation: hover-fade 0.2s linear 0s forwards;
+}
+
+@keyframes hover-fade { 0% {opacity:0;} 100% {opacity:1}}
+@-moz-keyframes hover-fade { 0% {opacity:0;} 100% {opacity:1}}
+@-ms-keyframes hover-fade { 0% {opacity:0;} 100% {opacity:1}}
+@-o-keyframes hover-fade { 0% {opacity:0;} 100% {opacity:1}}
+@-webkit-keyframes hover-fade { 0% {opacity:0;} 100% {opacity:1}}
+
+}
+
+/* media query */
+@media screen and (max-width:320px) {
+
+/* ul tag layout */
+.flat-mega-menu .drop-down.two-column ul,
+.flat-mega-menu .drop-down.full-width ul {
+	width: 100%;
+}
+
+/* .search-bar layout */
+.flat-mega-menu ul .search-bar td {
+	width: 100% !important;
+	float: left;
+	padding: 5px 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: default;
+}
+.flat-mega-menu ul .search-bar input[type=text],
+.flat-mega-menu ul .search-bar input[type=submit] {
+	width: 100%;
+	margin: 0;
+	border: none;
+}
+
+/* .login-form layout */
+.flat-mega-menu ul .login-form ul {
+	padding: 20px;
+}
+
+.flat-mega-menu ul .login-form td {
+	float: left;
+	width: 100%;
+	cursor: default;
+}
+.flat-mega-menu ul .login-form input[type=submit] {
+	width: 100%;
+}
+	/* .title class layout */
+	.flat-mega-menu ul .title {
+		padding-left: 0px;
+		
+	}
+}

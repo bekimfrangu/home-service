@@ -1,0 +1,173 @@
+/* Backgrounds ----------------------------------------------------------*/
+.btn-primary,
+.btn-primary:hover,
+.flat-mega-menu .drop-down.full-width ul li a.btn,
+.filter-header input[type="submit"],
+.ui-widget-header,
+.ui-state-default:hover,
+.ui-widget-content .ui-state-default:hover,
+.ui-widget-header .ui-state-default:hover,
+.flat-mega-menu .login-form input[type=submit],
+.flat-mega-menu .search-bar ul input[type=submit],
+.skin_base,
+.promotion-box-info .btn,
+.list-styles li i,
+.info-gallery .price b,
+.widget .input-group-addon.btn-search input,
+.header-v2,
+.info-head,
+.nav-tabs li.active a,
+.nav-tabs li.active a:hover,
+.nav-tabs li a:hover,
+.sort-by-container .style-view li:hover,
+.sort-by-container .style-view li.active,
+.selector span.custom-select:before,
+.slider-selection,
+.filter-widget input[type="submit"],
+.tabs-detailed .services-lines li:hover,
+.pagination > .active > a,
+.pagination .active,
+.tooltip-inner,
+.owl-theme .owl-controls .owl-buttons div,
+#theme-options .layout-style li.active,
+.thumbs li:hover,
+p.lead .line,
+.info-testimonial,
+.filter-header,
+.profilebackground,
+.filter-header input[type="button"]{
+	background: #00ffaa !important; 
+	background-color: #00ffaa !important; 
+}
+.opacy_bg_03,
+.item-team-01 .info-team,
+.header-detailed{
+	background: #00ffaa;  
+	background: rgba(136, 196, 37, 0.6);
+}
+
+/* Colors ----------------------------------------------------------*/
+.item-service-line i,
+.titles h2 span,
+.info-boxed h3 span,
+.price span,
+.title-footer h2 span,
+.flat-mega-menu > ul > .title > a > span,
+.flat-mega-menu > ul > .title i,
+.icon-big-nav i,
+.ui-datepicker th,
+.head-feature,
+.flat-mega-menu > ul > li:hover > a,
+.footer-v2 ul li i,
+.footer-v3 ul li i,
+.footer-v4 ul li i,
+.flat-mega-menu > ul > li:hover > a,
+.flat-mega-menu .login-form:hover,
+.flat-mega-menu .search-bar:hover,
+.item-team h4 span,
+.item-team-01 .social-team li a:hover,
+.large-number,
+.info-gallery h3 span,
+.post-format-icon > i,
+.post-item .post-title a:hover,
+.post-meta a:hover,
+.post-quote-author a,
+.single-blog h4 i,
+.single-blog h4 a,
+.nav-tabs li i,
+.container-by-widget-filter h4,
+.title-results a,
+blockquote > a,
+.tweet_time a,
+.tweet_text a,
+.acc-trigger a:hover, .acc-trigger.active a, .acc-trigger.active a:hover,
+.crumbs li a,
+.page-error h1 i,
+.sitemap li a:hover,
+.pagination > li > a, .pagination > li > span,
+address i,
+address a{
+	color: #00ffaa;
+}
+
+/* Borders ----------------------------------------------------------*/
+.pagination > .active > a,
+.pagination > .active:hover > a,
+.filter-header,
+.flat-mega-menu h2 span,
+.ui-datepicker,
+.crumbs ul,
+.portfolioFilter .current, .portfolioFilter a:hover,
+.post-format-icon > i,
+.section-title-03 h1,
+.title-widget{
+	border-color: #00ffaa !important;
+}
+.crumbs:before{
+	border-bottom: 20px solid #00ffaa;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #00ffaa;
+}
+.flat-mega-menu .drop-down,
+.flat-mega-menu .social-bar ul {
+	border-bottom-color: #00ffaa;
+}
+.nav-tabs li.active:after {
+	border: 16px solid #00ffaa;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	content: "";
+	left: 50%;
+	margin-left: -16px;
+	position: absolute;
+	z-index: 101;
+}
+.title-widget:after {
+  border-top: 15px solid  #00ffaa;
+}
+
+hr.separator::before {
+	background: #00ffaa;	
+}
+#footer .fa{
+	color:#fff;
+}
+.footer-m {	
+	border-top: 2px solid #00ffaa;	
+}
+
+.footer-m ul li a .fa {
+	color: #00ffaa !important;
+}
+
+ .crumbs ul{
+	border-color: #05f9f9 !important;
+}
+
+.crumbs ul li a{
+	color: #05f9f9 !important;
+}
+
+.line{
+	background: #05f9f9 !important;
+	background-color: #05f9f9 !important;
+}
+.header-v3 {
+	z-index: 9999;	
+}
+.error{
+	color:#f20e0e !important;
+	font-size: 14px !important;
+}
+
+.typeahead, .typeahead li{
+	z-index: 99999 !important;
+}
+#sponsors{
+	z-index: 101;
+}
+.#owl-wrapper{
+	z-index: 100;
+}
